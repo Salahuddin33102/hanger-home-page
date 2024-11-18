@@ -25,7 +25,7 @@ const FooterList = ({ title, items, links }) => {
 
 function Footer() {
     return (
-        <footer className="mb-20 mx-auto w-[96%] xl:w-[75%]">
+        <footer className="mb-20 mx-auto w-[96%] xl:w-[75%] mt-20">
         
                 <hr className='  border-[#00AEEF]' />
                 <div className="py-[68px] ">
