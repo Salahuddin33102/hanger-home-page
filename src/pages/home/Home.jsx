@@ -12,6 +12,7 @@ import Client_Testimoinal from '../../components/client_testimoinal/Client_Testi
 import AllAbout from '../../components/allabout/AllAbout';
 import OurPartner from '../../components/ourpartner/OurPartner';
 import AddHangar from '../../components/addhangar/AddHangar';
+import Crouser from '../../components/crouser/Crouser';
 function Home() {
 return (
     <>
@@ -27,6 +28,7 @@ return (
      <Rent_Image/>
      <Time_Offer/>
      <Client_Testimoinal/>
+     <Crouser/>
      <AllAbout/>
      <OurPartner/>
      <AddHangar/>

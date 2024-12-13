@@ -29,7 +29,7 @@ function Footer() {
         
                 <hr className='  border-[#00AEEF]' />
                 <div className="py-[68px] ">
-                    <div className="flex gap-[36px] justify-start md:justify-center xl:gap-[56px] flex-wrap  ">
+                    <div className="flex gap-[36px] mx-auto w-[80%] lg:w-[100%] lg:w-ful xl:gap-[56px] flex-wrap ">
                         <FooterList
                             title="Hosting"
                             items={["Promote Hangar", "How to host responsibly"]}
@@ -69,7 +69,7 @@ function Footer() {
                                 "/about-us",
                             ]}
                         />
-                      <div className='lg:pl-[43px] flex-1'>
+                      <div className='lg:pl-[43px]  '>
                       <Heading62 text={'Sign In to get exclusive discounts !'} customClass={'!text-black !pt-0 !leading-[30px] !text-[16px] !w-full !text-start'} />
                         <div className='flex border rounded-md max-w-[307px] mt-[17px] '>
                             <input type="text" placeholder='Enter your email' className='text-[14px]  pl-3 border-none' />

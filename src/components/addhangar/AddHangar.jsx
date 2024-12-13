@@ -9,7 +9,7 @@ function AddHangar() {
       >
    <div className='    pl-[30px] md:pl-[75px] !pt-[59px] '>
    <Heading62 text={'Add your hangar and open your doors to Rental Income'} customClass={'!mx-0 !leading-[44px] !text-start !text-[20px] md:!text-[36px] !pt-0 pb-[20px]'}/>
-   <Button text={'Add Hangar'}/>
+   <Button text={'Add Hangar'} customClass={'!mx-0'}/>
    </div>
     </div>
   
