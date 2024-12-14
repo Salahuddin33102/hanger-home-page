@@ -6,7 +6,7 @@ import Button from '../common/Button';
 function Time_Offer() {
     return (
         <div
-            className='h-[316px] rounded-[20px] mt-8  mx-auto w-[90%] lg:w-[75%]'
+            className='h-[316px] rounded-[20px] mt-8  mx-auto w-[90%]'
             style={{
                 backgroundImage: "url('/images/image 14.png')"
             }}

@@ -31,7 +31,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     console.log('open: ', open);
     return (
-        <nav className="md:flex lg:justify-around items-center py-8">
+        <nav className="md:flex lg:justify-around  items-center py-8">
             <div className={`bg-[#ffffff] rounded-2xl shadow-2xl  absolute transition-all  block w-[30%] p-2 right-10
             ${open ? "top-[4.5rem]" : 'top-[-11.2rem]'}`} onClick={() => setOpen(!open)} >
                 <ul>

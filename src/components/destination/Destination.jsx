@@ -18,13 +18,17 @@ function Destination() {
     }
  ]
 return (
-    <div className='mx-auto max-w-[90%] mb-10  '>
-        <Button text={'Popular'} customClass={'!text-start bg-white !mx-0  !text-[#00AEEF] !p-0 '}/>
-        <Heading62 text={'Hangar Destinations'} customClass={'!text-[#282828] text-start mx-0 !w-full lg:text-[36px] !pt-0'}/>
-        <div className='flex flex-wrap  lg:flex-nowrap gap-10 mx-0 lg:gap-8 justify-start lg:justify-center mt-5'>
-          {  data.map((item,i)=>{
+    <div className='mx-auto container mb-10  '>
+        <div className='mx-auto w-[85%]'>
+            
+        <Button text={'Popular'} customClass={' !bg-white !justify-start !mx-0  !text-blue !p-0 '}/>
+        <Heading62 text={'Hangar Destinations'} customClass={'!text-[#282828] !mx-0   text-start    lg:text-[36px] !pt-0'}/>
+        </div>
+
+        <div className='flex flex-wrap  lg:flex-nowrap justify-center  gap-5    mt-5'>
+          {  data.map((item,index)=>{
                return(
-                <div key={i} className='mx-auto w-full md:w-[47%] '>
+                <div key={index} className='w-[90%]  md:w-[42%] lg:w-[30%]'>
                     <img className='rounded-tr-[20px] rounded-tl-[20px] w-full ' src={item.image} alt="" />
                     <div className='border py-8 text-[24px] font-normal text-[#282828E0] text-center rounded-br-[20px] h-[150px] rounded-bl-[20px]'>{item.text}</div>
                 </div>

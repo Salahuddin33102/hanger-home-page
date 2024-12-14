@@ -25,10 +25,10 @@ function OurPartner() {
 
 
     <Heading62 text={'Our Partners'} customClass={'!text-black !text-[40px] !pb-[39px] !pt-0'}/>
-          <div className='flex flex-wrap md:flex-nowrap mx-auto max-w-[70%] gap-10  md:gap-[45px]  '>
+          <div className='flex flex-wrap md:flex-nowrap mx-auto container gap-10  md:gap-[45px]  '>
             {data.map((item,i)=>(
                 
-                    <div key={i} className=' w-full  md:w-[34%] text-center '>
+                    <div key={i} className=' mx-auto container text-center '>
                         <img src={item.Image} alt="" className='mx-auto' />
                     
                             <h2 className='text-center text-[18px] font-bold xl:pt-[20px]'>{item.title}</h2>

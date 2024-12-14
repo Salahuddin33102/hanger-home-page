@@ -25,11 +25,11 @@ const FooterList = ({ title, items, links }) => {
 
 function Footer() {
     return (
-        <footer className="mb-20 mx-auto w-[96%] xl:w-[75%] mt-20">
+        <footer className="mb-20 mx-auto container mt-20">
         
-                <hr className='  border-[#00AEEF]' />
+                <hr className='  border-blue' />
                 <div className="py-[68px] ">
-                    <div className="flex gap-[36px] mx-auto w-[80%] lg:w-[100%] lg:w-ful xl:gap-[56px] flex-wrap ">
+                    <div className="flex  justify-between mx-auto w-[80%] lg:w-[90%]  flex-wrap ">
                         <FooterList
                             title="Hosting"
                             items={["Promote Hangar", "How to host responsibly"]}
@@ -72,8 +72,8 @@ function Footer() {
                       <div className='lg:pl-[43px]  '>
                       <Heading62 text={'Sign In to get exclusive discounts !'} customClass={'!text-black !pt-0 !leading-[30px] !text-[16px] !w-full !text-start'} />
                         <div className='flex border rounded-md max-w-[307px] mt-[17px] '>
-                            <input type="text" placeholder='Enter your email' className='text-[14px]  pl-3 border-none' />
-                            <Button text={'subscribe'} customClass={'!rounded-none !rounded-r-md'} onClick={alert} />
+                            <input type="text" placeholder='Enter your email' className='text-[14px] pl-3 border-none' />
+                            <Button text={'subscribe'} customClass={'!rounded-none !rounded-r-md !px-4 !md:px-8'} onClick={alert} />
                             
                         </div>
                         <p className='text-[16px] font-bold leading-[29px] pt-[19px]'>Social Links</p>
@@ -90,7 +90,7 @@ function Footer() {
                     </div>
 
                 </div>
-                <hr className='  border-[#00AEEF]' />
+                <hr className='  border-blue' />
 
         
 

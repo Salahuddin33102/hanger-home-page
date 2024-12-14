@@ -8,6 +8,11 @@ export default {
     extend: {
       fontFamily : {
         "Inter" : ["Inter", "sans-serif"]
+      },
+      colors:{
+        "blue":"#00AEEF",
+        "grey":"#9D9D9DE0",
+
       }
     },
   },
